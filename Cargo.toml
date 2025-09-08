@@ -1,0 +1,22 @@
+[package]
+name = "zero2prod"
+version = "0.1.0"
+edition = "2024"
+authors = ["Subhadeep Sengupta <www.subhadeepsengupta2002@gmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+
+
+[[bin]]
+path = "src/main.rs"
+name = "zero2prod"
+
+
+[dependencies]
+actix-web = "4.10.2"
+tokio = { version = "*", features = ["full"] }
+
+
+[dev-dependencies]
+reqwest = "*"
