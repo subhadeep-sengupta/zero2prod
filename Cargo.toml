@@ -18,6 +18,8 @@ actix-web = "4.10.2"
 tokio = { version = "*", features = ["full"] }
 serde = { version = "1", features = ["derive"]}
 config = "0.15"
+uuid = {version = "*", features = ["v4"]}
+chrono = "*"
 
 [dependencies.sqlx]
 version = "0.8"
